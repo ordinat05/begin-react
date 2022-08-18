@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Card from "./components/Card";
-import Collapse from "./components/Collapse";
+import Card from "./components/7Card";
 
 // function App() {
 //   return <h1>Benim Adım Arin</h1>;
@@ -56,61 +55,24 @@ import Collapse from "./components/Collapse";
 
 // 🟪🟪🟪 ders 7
 
-// const App = () => {
-//   return (
-//     <div>
-//       {/* <React.StrictMode> */}
-//       <div className="card-group">
-//         <Card
-//           cardTitle="Card Title1"
-//           cardText="Lorem Ipsum Text1"
-//           updatedTime="Last Updated 1 min ago"
-//           cardImage="https://picsum.photos/id/1/200/300"
-//         />
-
-//         <Card
-//           cardTitle="Card Title2"
-//           cardText="Lorem Ipsum Text1"
-//           updatedTime="Last Updated 2 min ago"
-//           cardImage="https://picsum.photos/id/10/200/300"
-//         />
-//         <Card
-//           cardTitle="Card Title1"
-//           cardText="Lorem Ipsum Text3"
-//           updatedTime="Last Updated 3 min ago"
-//           cardImage="https://picsum.photos/id/100/200/300"
-//         />
-//       </div>
-//       {/* </React.StrictMode> */}
-//     </div>
-//   );
-// };
-// 🟪🟪🟪 ders 8
-// Collapse
-
 const App = () => {
   return (
     <div>
       {/* <React.StrictMode> */}
       <div className="card-group">
-        <Collapse href="collapseExample1">
-          {/* <Card
-            cardTitle="Card Title1"
-            cardText="Lorem Ipsum Text1"
-            updatedTime="Last Updated 1 min ago"
-            cardImage="https://picsum.photos/id/1/200/300"
-          /> */}
-          Pure Collapse Content, NO CARD
-        </Collapse>
-        <Collapse href="collapseExample2">
-          <Card
-            cardTitle="Card Title2"
-            cardText="Lorem Ipsum Text1"
-            updatedTime="Last Updated 2 min ago"
-            cardImage="https://picsum.photos/id/10/200/300"
-          />
-        </Collapse>
+        <Card
+          cardTitle="Card Title1"
+          cardText="Lorem Ipsum Text1"
+          updatedTime="Last Updated 1 min ago"
+          cardImage="https://picsum.photos/id/1/200/300"
+        />
 
+        <Card
+          cardTitle="Card Title2"
+          cardText="Lorem Ipsum Text1"
+          updatedTime="Last Updated 2 min ago"
+          cardImage="https://picsum.photos/id/10/200/300"
+        />
         <Card
           cardTitle="Card Title1"
           cardText="Lorem Ipsum Text3"
