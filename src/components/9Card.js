@@ -1,7 +1,7 @@
 import React from "react";
-// import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 
-// 🟪 ders 10
+// 🟪 ders 9  ⏰ 16:40 yeniden oluşturmak
 
 class Card extends React.Component {
   static defaultProps = {
@@ -23,5 +23,18 @@ class Card extends React.Component {
     );
   }
 }
+
+// Card.defaultProps = {
+//   cardTitle: "✅ Default  Card Title",
+// };
+
+Card.propTypes = {
+  // cardText: PropTypes.array,
+  // cardText: PropTypes.number,
+  cardText: PropTypes.string,
+  // cardText: PropTypes.array.isRequired,
+  // cardText: PropTypes.number.isRequired,
+  // cardText: PropTypes.string.isRequired,
+};
 
 export default Card;
